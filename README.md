@@ -4,3 +4,9 @@ Repositório dedicado aos conteúdos e exercícios da disciplina de Programaçã
 
 ### Atividades
 [Atividade Avaliativa 1](./atvi/) —  Website pessoal em HTML e CSS.
+
+## Estrutura do Repositório
+```bash
+├── atvi/ # Website pessoal em HTML e CSS.
+└── README.md
+```
