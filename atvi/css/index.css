@@ -1,0 +1,54 @@
+.intro-text{
+    color: #BE6120;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+}
+
+.name{
+    color: #2C2C2C;
+    font-size: 3rem;
+    font-weight: bold;   
+}
+
+.role{
+    color: #BE6120;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.description{
+    grid-column: 1;
+    
+}
+
+.summary{
+    margin-bottom: 1rem;
+}
+
+.experience-list{
+    margin-bottom: 1rem;
+}
+
+.img_victor{
+    grid-column: 2;
+    background-color: #BE6120;
+    height: 400px;
+}
+
+.icons{
+    display: flex;
+    gap: 1rem;
+}
+
+.icons svg {
+  width: 1.5rem; 
+  height: 1.5rem;  
+}
+
+.icons svg:hover{
+    color: #BE6120;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
