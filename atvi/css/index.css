@@ -1,18 +1,26 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:32px;
+    align-items: center;
+    flex: 1;
+}
+
 .intro-text{
-    color: #BE6120;
+    color: var(--color-primary);
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 0.6rem;
 }
 
 .name{
-    color: #2C2C2C;
+    color: var(--color-text);
     font-size: 3rem;
     font-weight: bold;   
 }
 
 .role{
-    color: #BE6120;
+    color: var(--color-primary);
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 1rem;
@@ -33,7 +41,7 @@
 
 .img_victor{
     grid-column: 2;
-    background-color: #BE6120;
+    background-color:var(--color-primary);
     height: 400px;
 }
 
@@ -48,7 +56,7 @@
 }
 
 .icons svg:hover{
-    color: #BE6120;
+    color:var(--color-primary);
     cursor: pointer;
     transition-duration: 0.3s;
 }

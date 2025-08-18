@@ -1,3 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: "Jost", sans-serif;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 nav{
     height: 80px;
     display: flex;
@@ -18,32 +38,27 @@ nav{
 }
 
 hr{
-    background-color: #BE6120;
+    background-color: var(--color-primary);
     border: none;
     height: 1px;
 }
 
 a{
     text-decoration: none;
-    color: #2C2C2C;
+    position: relative;
+    color: var(--color-text);
 }
+
 
 ul{
     list-style: none;  
 }
 
 a:hover{
-    color: #BE6120;
+    color: var(--color-primary);
     transition-duration: 0.2s;
 }
 
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap:32px;
-    align-items: center;
-    flex: 1;
-}
 
 p{
     font-size: 1rem;
