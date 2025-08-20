@@ -1,8 +1,8 @@
 /*------------ HOME PAGE ---------------*/
 .home{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5rem;
+    grid-template-columns: 1fr 25rem;
+    gap: 2rem;
     align-items: center;
     flex: 1;
 }
@@ -21,7 +21,7 @@
 
 .home__role{
     color: var(--color-primary);
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: var(--font-weight-secondary);  
     margin-bottom: 2rem;
 }
@@ -30,18 +30,7 @@
     margin-bottom: 2rem;
 }
 
-.experience-list{
-    margin-bottom: 1rem;
-}
-
-.img_victor img{
+.home__image img{
     grid-column: 2; 
-    height: 600px;
-
-}
-
-.icons{
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 2rem;
+    width: 25rem;
 }

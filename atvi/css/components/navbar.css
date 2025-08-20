@@ -41,7 +41,7 @@ ul{
 
 a:hover{
     color: var(--color-primary);
-    transition-duration: 0.2s;
+    transition: 0.3s;
 }
 
 .nav__contact-link {
@@ -50,10 +50,20 @@ a:hover{
     border-radius: 0.3rem;
     padding: 3px 14px; 
     background-color: var(--color-primary);
-    text-decoration: none; /* opcional, remove o underline */
+    text-decoration: none; 
 }
 
 .nav__contact-link:hover {
-    color: var(--color-text);
+    color: var(--color-text) !important;
     background-color: white;
+    transition: 0.3s;
 }
+
+#sidebar-active {
+  display: none;
+}
+
+
+
+
+

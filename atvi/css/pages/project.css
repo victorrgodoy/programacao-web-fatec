@@ -1,48 +1,49 @@
 .project{
     display: flex;
     flex-direction: column;
-    gap:2rem;
+    gap:5rem;
     flex: 1;
-    justify-content: center;
+    margin-top: 5rem;
+    align-items: center;
 }
+
+.project__intro-text{
+    color: var(--color-primary);
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
 
 .project__container{
     gap:2rem;
     display: flex;
-    flex-wrap: wrap;
 }
 
-.project__image-container{
-    flex: 1 1 50%;
-    max-width: 50%;
+.project__image {
+  width: 45%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 0.4rem;
 }
 
-.project__image{
-    height: auto;
-    width: 100%;
-    display: block;
-    object-fit: cover;
-    background-size: cover; 
-    border-radius: 0.5rem;
-}
-
-.project__description{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.project__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .project__title{
     color: var(--color-primary);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
 }
 
-.project__info{
+.project__info{ 
+    margin-top: 2rem;
     display: grid;
-    grid-template-columns: 0.4fr 1fr;
-    gap: 2rem;
-    
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
 
 .project__date-title{

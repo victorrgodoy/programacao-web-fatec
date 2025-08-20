@@ -1,8 +1,8 @@
 .about{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.7fr 1fr;
     flex: 1;
-    margin-top: 2rem;
+    margin-top: 5rem;
     gap: 3rem;
 }
 

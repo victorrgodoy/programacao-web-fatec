@@ -9,7 +9,6 @@
 }
 
 .social-bar a {
-    color: black;
     width: 40px;
     height: 40px;
     transition: transform 0.3s ease, background 0.3s ease;

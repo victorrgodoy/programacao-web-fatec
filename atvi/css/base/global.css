@@ -15,12 +15,24 @@ html, body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    max-width: 1200px;
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
+    padding-inline: 30px;
 }
 
 p{
     font-size: 1rem;
     color: var(--color-text);
 }
+
+
+/* icons */
+.bi-github {
+    fill: black;
+}
+
+.bi-linkedin{
+    fill:black;
+}
+
