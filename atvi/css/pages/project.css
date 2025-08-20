@@ -1,0 +1,53 @@
+.project{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    flex: 1;
+    justify-content: center;
+}
+
+.project__container{
+    gap:2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project__image-container{
+    flex: 1 1 50%;
+    max-width: 50%;
+}
+
+.project__image{
+    height: auto;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    background-size: cover; 
+    border-radius: 0.5rem;
+}
+
+.project__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project__title{
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.project__info{
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    gap: 2rem;
+    
+}
+
+.project__date-title{
+    font-weight: 500;
+}
+.project__client-title{
+    font-weight: 500;
+}

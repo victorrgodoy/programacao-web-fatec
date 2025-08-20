@@ -1,0 +1,59 @@
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    font-family: "Audiowide";
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.nav__logo::first-letter {
+    color: white;
+    background-color: var(--color-primary); 
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.nav__menu{
+    display: flex;
+    gap: 34px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    
+}
+
+.nav__menu a{
+    text-decoration: none;
+    position: relative;
+    color: #4d4c4c;
+}
+
+
+ul{
+    list-style: none;  
+}
+
+a:hover{
+    color: var(--color-primary);
+    transition-duration: 0.2s;
+}
+
+.nav__contact-link {
+    color: white !important;
+    border: 1px solid var(--color-text); 
+    border-radius: 0.3rem;
+    padding: 3px 14px; 
+    background-color: var(--color-primary);
+    text-decoration: none; /* opcional, remove o underline */
+}
+
+.nav__contact-link:hover {
+    color: var(--color-text);
+    background-color: white;
+}

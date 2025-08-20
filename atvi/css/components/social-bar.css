@@ -1,0 +1,28 @@
+.social-bar {
+    position: fixed;
+    right: 5rem;       
+    bottom: 0.1rem;       
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 10;
+}
+
+.social-bar a {
+    color: black;
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.social-bar a:hover{
+    transform: scale(1.1);
+    color: var(--color-primary); 
+}
+
+.social-bar hr{
+    color: black;
+    height: 15rem;
+    width: 1px;
+    align-self: center;
+}

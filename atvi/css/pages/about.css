@@ -1,0 +1,68 @@
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex: 1;
+    margin-top: 2rem;
+    gap: 3rem;
+}
+
+/* section 1 */
+.about__intro{
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin: 0px 11rem 0px 11rem;
+    text-align: center;
+}
+
+.about__intro-text{
+    color: var(--color-primary);
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.about__image {
+  grid-column: 1;
+  background-color: var(--color-primary);
+  height: 25rem;
+}
+
+/* section 2 */
+.about__right{
+    grid-column: 2;
+}
+
+.about__skills{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-bottom: 2rem;
+}
+
+.about__education{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-bottom: 2rem;
+}
+
+.about__awards{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-bottom: 2rem;
+}
+
+h1{
+    grid-column: span 2;
+    
+}
+
+
+h3{
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
