@@ -13,28 +13,40 @@ html, body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    max-width: 1000px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
 }
 
 nav{
-    height: 80px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
-.logo{
-    font-size: 1.75rem;
+.logo {
+    font-family: "Audiowide";
+    font-size: 1.3rem;
     font-weight: 500;
+    color: black;
 }
+
+.logo::first-letter {
+    color: white;
+    background-color: var(--color-primary); 
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
 
 .menu{
     display: flex;
     gap: 34px;
-    font-size: 1.125rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    
 }
 
 hr{
@@ -46,7 +58,7 @@ hr{
 a{
     text-decoration: none;
     position: relative;
-    color: var(--color-text);
+    color: #4d4c4c;
 }
 
 
@@ -59,14 +71,55 @@ a:hover{
     transition-duration: 0.2s;
 }
 
-
 p{
     font-size: 1rem;
 }
 
 footer{
-    height: 80px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.social-bar {
+    position: fixed;
+    right: 5rem;       
+    bottom: 0.1rem;       
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 10;
+}
+
+.social-bar a {
+    color: black;
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.social-bar a:hover{
+    transform: scale(1.1);
+    color: var(--color-primary); 
+}
+
+.social-bar hr{
+    color: black;
+    height: 15rem;
+    width: 1px;
+    align-self: center;
+}
+
+#contact {
+    color: white;
+    border: 1px solid  var(--color-text); 
+    border-radius: 0.3rem;
+    padding: 3px 14px 3px 14px; 
+    background-color: var(--color-primary);
+}
+
+#contact:hover{
+    color: var(--color-text);
+    background-color: white;
 }
