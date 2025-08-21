@@ -7,6 +7,7 @@
 @import url("./components/footer.css");
 @import url("./components/button.css");
 @import url("./components/social-bar.css");
+@import url("./components/form.css");
 
 /* Pages */
 @import url("./pages/index.css");

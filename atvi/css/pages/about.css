@@ -3,7 +3,9 @@
     grid-template-columns: 0.7fr 1fr;
     flex: 1;
     margin-top: 5rem;
+    margin-bottom: 5rem;
     gap: 3rem;
+    align-items: center;
 }
 
 /* section 1 */
@@ -12,7 +14,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
-    margin: 0px 11rem 0px 11rem;
+    margin: 0px 8rem 0px 8rem;
     text-align: center;
 }
 
@@ -23,10 +25,10 @@
     margin-bottom: 0.5rem;
 }
 
-.about__image {
+.about__image img{
   grid-column: 1;
-  background-color: var(--color-primary);
-  height: 25rem;
+  width: 100%;
+  height: 90%;
 }
 
 /* section 2 */

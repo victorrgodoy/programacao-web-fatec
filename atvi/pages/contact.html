@@ -10,19 +10,69 @@
     <div class="container">
         <header>
             <nav>
-                <a href="index.html" class="logo">VictorGodoy</a>
-                <ul class="menu">
-                    <li><a href="about.html">Sobre</a></li>
-                    <li><a href="project.html">Projetos</a></li>
-                    <li><a href="interest.html">Interesses</a></li>
-                    <li><a href="contact.html" class="nav__contact-link">Contato</a></li>
-                </ul>
+                <a href="index.html" class="nav__logo">VictorGodoy</a>       
+                 <input type="checkbox" class="toggle-menu" id="sidebar-active">
+                  <label for="sidebar-active" class="nav__toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                      <path
+                        fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                      <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                    </svg>
+                </label>
+                  <ul class="nav__menu">
+                      <li><a href="about.html">Sobre</a></li>
+                      <li><a href="project.html">Projetos</a></li>
+                      <li><a href="interest.html">Interesses</a></li>
+                      <li><a href="contact.html" class="nav__contact-link">Contato</a></li>
+                  </ul>
             </nav>
-            <hr>
         </header>
 
-        <main></main>
-          <hr>
+        <main class="contact">
+           <section class="contact__contaiter-left">
+                <h1 class="contact__title">Pronto para o próximo passo? Fale comigo agora mesmo.</h1>
+
+                <form action="" method="get" class="contact__form">
+                    <div class="contact__name">
+                    <label for="name">Seu nome *</label>
+                    <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="contact__email">
+                    <label for="email">Seu email *</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+                    </div>
+
+                    <div class="contact__message">
+                    <label for="message">Sua mensagem *</label>
+                    <textarea name="message" id="message" rows="5" placeholder="Escreva aqui ..." required></textarea>
+                    </div>
+
+                    <a href="./contact.html" class="button-primary">Enviar mensagem</a>
+                </form>
+            </section>
+
+            <div class="contact__container-right">
+                <p>Envie-me uma mensagem para começarmos a trabalhar juntos. Conte-me sua
+                    visão e seus objetivos. Estou ansioso pela nossa colaboração.
+                </p>
+                <div class="contact__email">
+                    <p>Email</p>
+                    <p class="contact__info">victor.hgodoy@icloud.com</p>
+                </div>
+
+                <div class="contact__social">
+                    <p>Social</p>
+                <ul>
+                    <li class="contact__info">Github</li>
+                    <li class="contact__info">Linkedin</li>
+                </ul>
+                </div>
+            </div>
+        </main>
         <footer>
             <p>© 2025 Victor Godoy. Todos os direitos reservados.</p>
         </footer>
