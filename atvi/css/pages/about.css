@@ -66,3 +66,33 @@ h3{
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+
+@media (max-width: 940px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+        gap: 2rem;
+    }
+
+    .about__intro{
+        margin: 0px 2rem 0px 2rem;
+    }
+
+    .about__image {
+      grid-column: span 2;
+      width: 50%;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    .about__right{
+        grid-column: span 2;
+        margin: 0px 2rem 0px 2rem;
+    }
+
+    .about__intro{
+        align-items: center;
+    }
+}   

@@ -60,9 +60,44 @@ a:hover{
 }
 
 #sidebar-active {
-  display: none;
+  display: none; /* esconde checkbox */
 }
 
+.bi-list, .bi-x-lg {
+  display: none;
+  cursor: pointer;
+  color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .nav__menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 2rem;
+    gap: 1.2rem;
+    z-index: 1000;
+    align-items: center;
+  }
+
+  .bi-list{
+    display: inline;
+  }
+
+  #sidebar-active:checked ~ .nav__toggle .bi-list {
+    display: none;
+  }
+  #sidebar-active:checked ~ .nav__toggle .bi-x-lg {
+    display: inline;
+  }
+  #sidebar-active:checked ~ .nav__menu {
+    display: flex;
+  }
+}
 
 
 

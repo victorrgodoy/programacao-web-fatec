@@ -1,6 +1,6 @@
 .social-bar {
     position: fixed;
-    right: 5rem;       
+    right: 2rem;       
     bottom: 0.1rem;       
     display: flex;
     flex-direction: column;
@@ -24,4 +24,11 @@
     height: 15rem;
     width: 1px;
     align-self: center;
+}
+
+
+@media (max-width: 1100px) {
+    .social-bar {
+        display: none;
+    }
 }
