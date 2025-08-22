@@ -1,0 +1,36 @@
+.service{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2;
+    gap: 2rem;    
+    flex:1;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+.service h1{
+    grid-column: span 3;
+    text-align: center;
+    color: var(--color-primary);
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.service__option{
+  padding: 1.4rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  display: grid;
+}
+
+.service__option h2{
+    font-size: 1.2rem;
+}
+
+@media(max-width: 760px){
+    .service{
+        display: flex;
+        flex-direction: column;
+    }
+}
