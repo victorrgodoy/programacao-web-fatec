@@ -1,69 +1,69 @@
-nav{
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* nav component */
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav__logo {
-    font-family: "Audiowide";
-    font-size: 1.3rem;
-    font-weight: 500;
-    color: black;
-    text-decoration: none;
+  font-family: "Audiowide";
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
 }
 
 .nav__logo::first-letter {
-    color: white;
-    background-color: var(--color-primary); 
-    padding: 0 5px;
-    border-radius: 5px;
+  color: white;
+  background-color: var(--color-primary);
+  padding: 0 5px;
+  border-radius: 5px;
 }
 
-.nav__menu{
-    display: flex;
-    gap: 34px;
-    font-size: 1.1rem;
-    font-weight: 400;
-    
+.nav__menu {
+  display: flex;
+  gap: 34px;
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
-.nav__menu a{
-    text-decoration: none;
-    position: relative;
-    color: #4d4c4c;
+.nav__menu a {
+  text-decoration: none;
+  position: relative;
+  color: #4d4c4c;
 }
 
-
-ul{
-    list-style: none;  
+ul {
+  list-style: none;
 }
 
-a:hover{
-    color: var(--color-primary);
-    transition: 0.3s;
+a:hover {
+  color: var(--color-primary);
+  transition: 0.3s;
 }
 
 .nav__contact-link {
-    color: white !important;
-    border: 1px solid var(--color-text); 
-    border-radius: 0.3rem;
-    padding: 3px 14px; 
-    background-color: var(--color-primary);
-    text-decoration: none; 
+  color: white !important;
+  border: 1px solid var(--color-text);
+  border-radius: 0.3rem;
+  padding: 3px 14px;
+  background-color: var(--color-primary);
+  text-decoration: none;
 }
 
 .nav__contact-link:hover {
-    color: var(--color-text) !important;
-    background-color: white;
-    transition: 0.3s;
+  color: var(--color-text) !important;
+  background-color: white;
+  transition: 0.3s;
 }
 
 #sidebar-active {
   display: none; /* esconde checkbox */
 }
 
-.bi-list, .bi-x-lg {
+.bi-list,
+.bi-x-lg {
   display: none;
   cursor: pointer;
   color: var(--color-primary);
@@ -84,7 +84,7 @@ a:hover{
     align-items: center;
   }
 
-  .bi-list{
+  .bi-list {
     display: inline;
   }
 
@@ -98,7 +98,3 @@ a:hover{
     display: flex;
   }
 }
-
-
-
-

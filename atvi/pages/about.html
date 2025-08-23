@@ -1,90 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Atividade 1 - Página pessoal</title>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <nav>
-                <a href="index.html" class="nav__logo">VictorGodoy</a>       
-                 <input type="checkbox" class="toggle-menu" id="sidebar-active">
-                  <label for="sidebar-active" class="nav__toggle">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                      <path
-                        fill-rule="evenodd"
-                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
-                      <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
-                    </svg>
-                </label>
-                  <ul class="nav__menu">
-                      <li><a href="about.html">Sobre</a></li>
-                      <li><a href="project.html">Projetos</a></li>
-                      <li><a href="service.html">Serviços</a></li>
-                      <li><a href="contact.html" class="nav__contact-link">Contato</a></li>
-                  </ul>
-            </nav>
-        </header>
+      <header>
+        <nav>
+          <a href="index.html" class="nav__logo">VictorGodoy</a>
+          <input type="checkbox" class="toggle-menu" id="sidebar-active" />
+          <label for="sidebar-active" class="nav__toggle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              fill="currentColor"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              fill="currentColor"
+              class="bi bi-x-lg"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"
+              />
+            </svg>
+          </label>
+          <ul class="nav__menu">
+            <li><a href="about.html">Sobre</a></li>
+            <li><a href="project.html">Projetos</a></li>
+            <li><a href="service.html">Serviços</a></li>
+            <li>
+              <a href="contact.html" class="nav__contact-link">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-        <main class="about">
-            <section class="about__intro">
-                <h1 class="about__intro-text">Sobre mim</h1>
-                <p class="about__summary">
-                    Atualmente estou no 4º semestre de Análise e Desenvolvimento de Sistemas, com experiência 
-                    em projetos acadêmicos. Tenho maior afinidade por desenvolver servidores robustos e escaláveis, 
-                    mas também possuo conhecimentos em interfaces de usuário. 
-                </p>
-            </section>
-            <section class="about__image">
-                <img src="../img/about/victor-dev2.png" alt="">
-            </section>
+      <main class="about">
+        <section class="about__intro">
+          <h1 class="about__intro-text">Sobre mim</h1>
+          <p class="about__summary">
+            Atualmente cursando o 4º semestre de Análise e Desenvolvimento de
+            Sistemas, com experiência em projetos acadêmicos. Desenvolvo
+            aplicações web completas, criando desde servidores robustos e
+            escaláveis até interfaces de usuário intuitivas. Tenho expertise em
+            implementar soluções eficientes e conexões otimizadas, utilizando
+            quando necessário ferramentas de IA para agilizar processos e
+            melhorar a produtividade.
+          </p>
+        </section>
+        <section class="about__image">
+          <img src="../img/about/victor-dev2.png" alt="" />
+        </section>
 
-            
-            <div class="about__right">
-                <section class="about__skills">
-                  <h3>Habilidade</h3>
-                    <ul class="about__skills-list">
-                      <li>Linguagens & Plataformas: TypeScript, Python, Java, Node.js</li>
-                      <li>Frameworks Web: Tailwind CSS, Spring Boot, React.js, Express.js</li>
-                      <li>Bancos de Dados: PostgreSQL, MySQL, Redis</li>
-                      <li>Conceitos: POO, SOLID, Design Patterns, APIs RESTful, Web</li>
-                      <li>Outras Ferramentas: Git, Bash, macOS</li>
-                    </ul>
-                </section>
-                <section class="about__education">
-                    <h3>Educação</h3>
-                    <div>
-                        <p>Análise e Desenvolvimento de Sistemas</p>
-                        <p class="about__academy"> FATEC – Faculdade de Tecnologia do Estado de São Paulo | 2023 --- 2026</p>
-                    </div>
-                </section>
-                <section class="about__awards">                
-                    <h3>Certificações & Premiações:</h3>
-                    <div>
-                        <ul>
-                            <li>Microsoft Certification: Azure Fundamentals – 2023</li>
-                            <li>2º Lugar – Maratona Interna de Programação, FATEC – 2023</li>
-                        </ul>
-                    </div>
-                </section>
+        <div class="about__right">
+          <section class="about__skills">
+            <h3>Habilidade</h3>
+            <ul class="about__skills-list">
+              <li>Linguagens: TypeScript, Python, Java</li>
+              <li>Frameworks: Express, React, Tailwind, Spring Boot</li>
+              <li>Bancos de Dados: PostgreSQL, MySQL, Redis</li>
+              <li>Conceitos: POO, SOLID, APIs RESTful</li>
+              <li>Outras Ferramentas: Git, Bash, macOS</li>
+            </ul>
+          </section>
+          <section class="about__education">
+            <h3>Educação</h3>
+            <div>
+              <p>Análise e Desenvolvimento de Sistemas</p>
+              <p class="about__academy">
+                FATEC – Faculdade de Tecnologia do Estado de São Paulo | 2023
+                --- 2026
+              </p>
             </div>
-        </main>
-        <footer>
-            <p>© 2025 Victor Godoy. Todos os direitos reservados.</p>
-        </footer>
+          </section>
+          <section class="about__awards">
+            <h3>Certificações & Premiações:</h3>
+            <div>
+              <ul>
+                <li>Microsoft Certification: Azure Fundamentals – 2023</li>
+                <li>
+                  2º Lugar – Maratona Interna de Programação, FATEC – 2023
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <p>© 2025 Victor Godoy. Todos os direitos reservados.</p>
+      </footer>
     </div>
 
-
-     <div class="social-bar">
-      <a
-        href="https://github.com/victorrgodoy"
-        target="_blank"
-      >
+    <div class="social-bar">
+      <a href="https://github.com/victorrgodoy" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="34"
@@ -112,8 +135,7 @@
           />
         </svg>
       </a>
-      <hr>
+      <hr />
     </div>
-    
-</body>
+  </body>
 </html>

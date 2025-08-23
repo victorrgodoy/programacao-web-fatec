@@ -1,50 +1,46 @@
-.contact{
-    display: grid;
-    grid-template-columns: 1fr 0.5fr;
-    flex: 1;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
-    gap: 6rem;
-    color: var(--text-color);
+/* contact page */
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  flex: 1;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  gap: 6rem;
+  color: var(--text-color);
 }
 
-.contact__container-left{
-    grid: 1;
-
+.contact__container-left {
+  grid: 1;
 }
 
-.contact__title{
-    font-size: 2rem;
-    font-weight: 500;
-    color: var(--color-primary);
-    grid: 1;
-    margin-bottom: 5rem;
+.contact__title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--color-primary);
+  grid: 1;
+  margin-bottom: 5rem;
 }
 
-.contact__container-right{
-    grid:2;
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+.contact__container-right {
+  grid: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
-
 
 .contact__info {
-    font-weight: 500;
-    color: var(--text-color);
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.contact__info a{
+  text-decoration: none;
 }
 
 
-
-@media(max-width: 760px){
-    .contact{
-        display: flex;
-        flex-direction: column;
-    }
+@media (max-width: 760px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
 }
-
-
-
-
-
-

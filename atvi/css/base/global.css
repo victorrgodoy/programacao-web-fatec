@@ -1,38 +1,39 @@
+/* google font import */
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* style css pattern reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body{
-    font-family: "Jost", sans-serif;
-    height: 100%;
+html,
+body {
+  font-family: "Jost", sans-serif;
+  height: 100%;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
-    padding-inline: 30px;
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: 30px;
 }
 
-p{
-    font-size: 1rem;
-    color: var(--color-text);
+p {
+  font-size: 1rem;
+  color: var(--color-text);
 }
-
 
 /* icons */
 .bi-github {
-    fill: black;
+  fill: black;
 }
 
-.bi-linkedin{
-    fill:black;
+.bi-linkedin {
+  fill: black;
 }
-

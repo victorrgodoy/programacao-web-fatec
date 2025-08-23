@@ -1,7 +1,8 @@
+/* form component */
 .contact__form {
   display: flex;
   flex-direction: column;
-  gap: 2rem; 
+  gap: 2rem;
   width: 100%;
 }
 
@@ -19,16 +20,16 @@
 .contact__form textarea {
   margin-bottom: 1rem;
   padding: 0.8rem 0;
-  width: 100%;  
-  border: none;              /* remove bordas padrão */
-  border-bottom: 2px solid #ccc; /* só linha embaixo */
+  width: 100%;
+  border: none; 
+  border-bottom: 2px solid #ccc; 
   font-size: 1rem;
-  background: transparent;   /* fundo limpo */
+  background: transparent; 
   outline: none;
   transition: border-color 0.2s ease;
 }
 
 .contact__form input:focus,
 .contact__form textarea:focus {
-  border-bottom-color: var(--color-primary); /* muda cor no focus */
+  border-bottom-color: var(--color-primary); 
 }
