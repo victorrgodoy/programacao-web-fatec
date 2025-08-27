@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2 - To Do List</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="task-header">
+        <h1>Lista de Tarefas</h1>
+            <!-- Open form button -->
+            <button id="btn-open-modal" class="btn">Nova Tarefa</button>
+        </div>
+        <h2 class="list-title">Em andamento</h2>
+        <div id="task-list-header" class="task-list-header">
+            <p>Nome da Tarefa</p>
+            <p>Categoria</p>
+            <p>Prioridade</p>
+            <p>Prazo</p>
+            <p>Ações</p>
+        </div> 
+        <div id="task-list" class="task-list">
+            
+        </div>           
+        <p id="no-tasks">Nenhuma tarefa encontrada</p>
+        </div>
+    </div>
+    
+    <!-- Modal  -->
+     <div id="task-modal" class="modal">
+        <div class="container-modal">
+        <p class="task-title">Adicionar Nova Tarefa</p>
+        <hr>
+        <p class="task-title-details">DETALHES DA TAREFA</p>
+        <form id="task-form" class="form" autocomplete="off">
+            <div class="form-row">
+                <label for="task-name">Nome da Tarefa</label>
+                <input type="task-name" name="description" type="text" required>
+            </div>
+            <div class="form-row">
+                <label for="task-category">Categoria</label>
+                <select name="category" id="task-category" required>
+                    <option value="trabalho">Trabalho</option>
+                    <option value="estudos">Estudos</option>
+                    <option value="pessoal">Pessoal</option>
+                </select>
+            </div>
+             <div class="form-row">
+                <label for="task-priority">Prioridade</label>
+                <select name="priority" id="task-priority" required>
+                    <option value="Alta">Alta</option>
+                    <option value="Média">Média</option>
+                    <option value="Baixa">Baixa</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="task-date">Data Limite</label>
+                <input type="task-date" name="limitDate" type="date" required>
+            </div>
+            <button id="btn-close-modal" class="btn-cancel">Cancelar</button>
+            <button type="submit" id="btn-save-modal" class="btn-save">Salvar</button>
+        </form>
+        </div>
+     </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
