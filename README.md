@@ -10,7 +10,6 @@ Repositório dedicado aos conteúdos e exercícios da disciplina de Programaçã
 [Atividade Prática 2](./atvii/) — To Do List em HTML, CSS e JavaScript.
 - JavaScript implementado para manipulação de tarefas  
 - Inclusão, exclusão e persistência com localStorage  
-- Layout responsivo e organizado  
 
 
 ## Estrutura do Repositório

@@ -6,25 +6,44 @@
     <title>Atividade 2 - To Do List</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <div class="container">
+<body class="container">
+    <div class="container-task">
         <div class="task-header">
         <h1>Lista de Tarefas</h1>
             <!-- Open form button -->
             <button id="btn-open-modal" class="btn">Nova Tarefa</button>
+            
+            <div>
+            <label for="filter-category">Filtrar por:</label>
+            <select id="filter-category">
+                <option value="all">Todas</option>
+                <option value="Trabalho">Trabalho</option>
+                <option value="Estudos">Estudos</option>
+                <option value="Pessoal">Pessoal</option>
+            </select>
+
+            <label for="sort-tasks">Ordenar por:</label>
+            <select id="sort-tasks">
+                <option value="date">Data</option>
+                <option value="priority">Prioridade</option>
+            </select>
+            </div>
         </div>
+
+        
+        <div class="task-body">
         <h2 class="list-title">Em andamento</h2>
         <div id="task-list-header" class="task-list-header">
-            <p>Nome da Tarefa</p>
+            <p>Nome</p>
             <p>Categoria</p>
             <p>Prioridade</p>
             <p>Prazo</p>
-            <p>Ações</p>
+            <p >Ações</p>
         </div> 
-        <div id="task-list" class="task-list">
-            
-        </div>           
+        <div id="task-list" class="task-list"></div>           
         <p id="no-tasks">Nenhuma tarefa encontrada</p>
+     
+        </div>
         </div>
     </div>
     
@@ -42,9 +61,9 @@
             <div class="form-row">
                 <label for="task-category">Categoria</label>
                 <select name="category" id="task-category" required>
-                    <option value="trabalho">Trabalho</option>
-                    <option value="estudos">Estudos</option>
-                    <option value="pessoal">Pessoal</option>
+                    <option value="Trabalho">Trabalho</option>
+                    <option value="Estudos">Estudos</option>
+                    <option value="Pessoal">Pessoal</option>
                 </select>
             </div>
              <div class="form-row">
@@ -57,13 +76,14 @@
             </div>
             <div class="form-row">
                 <label for="task-date">Data Limite</label>
-                <input type="task-date" name="limitDate" type="date" required>
+                <input name="limitDate" type="date" required>
             </div>
             <button id="btn-close-modal" class="btn-cancel">Cancelar</button>
             <button type="submit" id="btn-save-modal" class="btn-save">Salvar</button>
         </form>
         </div>
      </div>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>
